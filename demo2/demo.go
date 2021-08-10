@@ -29,4 +29,6 @@ func demo() {
 func main() {
 	demo()
 	fmt.Println("hello world")
+	const s = "HELLO"
+	fmt.Println(s)
 }
