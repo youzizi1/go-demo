@@ -24,6 +24,13 @@ func demo() {
 	c,d,e := true, 4, 5
 	e = 6
 	fmt.Println(a,b,c,d,e,m,n)
+	// 指针
+	var foo *int
+	// 获取m的内存地址
+	foo = &m
+	fmt.Println(foo)
+	// 获取内存对应的值
+	fmt.Println(*foo)
 }
 
 func main() {
