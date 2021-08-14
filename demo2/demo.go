@@ -9,7 +9,11 @@ var (
 	c = "hello world"
 )
 
+var m, n = 10, 20
+var l, s string = "hello", "world"
+
 func demo() {
+	fmt.Println(m, n, l, s)
 	// 只初始化，int默认为0，string默认为""
 	var u int
 	var v string
