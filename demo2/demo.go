@@ -40,6 +40,7 @@ func demo() {
 func main() {
 	demo()
 	fmt.Println("hello world")
+	// 定义常量，不能被重新赋值
 	const s = "HELLO"
 	fmt.Println(s)
 }
