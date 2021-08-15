@@ -17,4 +17,8 @@ func (r rect) perim() int  {
 func main() {
 	r1 := rect{width: 10, height: 20}
 	fmt.Println(r1.area(), r1.perim())
+
+	// 指针
+	r2 := &r1
+	fmt.Println(r2.area(), r2.perim())
 }
