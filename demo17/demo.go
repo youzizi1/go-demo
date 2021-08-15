@@ -12,7 +12,7 @@ func sayHi(name string) {
 		fmt.Println(name + "hello world", i)
 	}
 }
-
+// 协程的使用
 func main() {
 	cmd := exec.Command("clear")
 	cmd.Stdout = os.Stdout
