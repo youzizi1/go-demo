@@ -5,7 +5,7 @@ import "fmt"
 type rect struct {
 	width, height int
 }
-
+// go定义结构体的方法不是在结构体内部，而是在结构体外面
 func (r *rect) area() int  {
 	return r.width * r.height
 }
